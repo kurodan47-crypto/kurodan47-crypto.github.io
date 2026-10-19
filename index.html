@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>AIこうしろうカンパニー</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="theme-css" href="style-light.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="#top"><span class="logo-mark">AI</span>AIこうしろうカンパニー</a>
+    <nav>
+      <a href="#videos">動画</a>
+      <a href="#services">できること</a>
+      <a href="#works">つくったもの</a>
+      <a href="#price">料金</a>
+      <a href="#about">会社について</a>
+      <button class="theme-toggle" type="button" id="theme-toggle" aria-label="明るい版と暗い版を切り替える">暗い版</button>
+      <a class="btn btn-coral" href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<!-- 最初の画面 -->
+<section class="hero">
+  <canvas class="hero-bg" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <span class="tag">VIDEO / WEB / AI</span>
+      <h1><span class="accent">動画</span>も、<br><span class="accent">ホームページ</span>も、<br><span class="nw"><span class="mark">AI活用</span>も。</span></h1>
+      <p class="sub">AIこうしろうカンパニーは、静岡の小さな制作会社です。YouTubeの動画作成、ホームページ作成、AIの導入サポートとコンサルティングをお受けしています。</p>
+      <div class="badges">
+        <div class="badge"><small>作れる動画</small><b><em>4</em> 種類</b></div>
+        <div class="badge"><small>料金は</small><b>公開中</b></div>
+        <div class="badge"><small>拠点</small><b>静岡</b></div>
+      </div>
+      <div class="ctas">
+        <a class="btn btn-coral" href="#videos">作れる動画を見る</a>
+        <a class="btn btn-white" href="#services">できることを見る</a>
+      </div>
+    </div>
+    <div class="devices" aria-hidden="true">
+      <div class="laptop"><div class="screen"><img src="img/manga-2.jpg" alt=""></div><div class="base"></div></div>
+      <div class="phone"><img src="img/manga-1.jpg" alt="" style="object-position:22% 50%"></div>
+      <div class="float float-1">絵が動く<br>漫画動画 <b>2:05</b></div>
+      <div class="float float-2">台本から字幕まで <b>一括</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- こんな動画が作れます -->
+<section class="section" id="videos">
+  <div class="wrap">
+    <div class="sec-head"><span class="en">VIDEO</span><h2>こんな動画が作れます</h2><p>動画の見本です。台本、絵、声、字幕、編集まで、まとめてお作りします。</p></div>
+    <div class="feature">
+      <div class="player">
+        <video controls playsinline preload="none" poster="img/manga-3.jpg" src="media/manga.mp4"></video>
+      </div>
+      <div class="fcap">
+        <span class="kind">漫画動画</span>
+        <h3>絵が動いて、声と字幕で進む漫画動画</h3>
+        <p>テーマをうかがうだけで、台本から絵、ナレーション、字幕まで仕上げた見本です。</p>
+        <dl class="facts">
+          <div><dt>長さ</dt><dd>2分5秒</dd></div>
+          <div><dt>絵</dt><dd>11枚</dd></div>
+          <div><dt>絵にかかったお金</dt><dd>約220円</dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="vtypes">
+      <figure class="vtype"><div class="vimg"><img src="img/manga-4.jpg" alt="漫画動画の一場面。夜の机でスマホを見る男性"></div><figcaption><span class="kind">漫画動画</span><b>物語で伝える</b><span class="d">体験談やノウハウを、登場人物の会話で</span></figcaption></figure>
+      <figure class="vtype"><div class="vimg"><img src="img/w-renai.jpg" alt="図解動画の一場面。群れの中に立つ青と赤のピクトグラム"></div><figcaption><span class="kind">図解の解説動画</span><b>研究を図で伝える</b><span class="d">6〜7分。ピクトグラムで気持ちや関係を見せる</span></figcaption></figure>
+      <figure class="vtype"><div class="vimg"><img src="img/w-notore.jpg" alt="脳トレ動画の一場面。間違い探しの部屋の絵"></div><figcaption><span class="kind">クイズ動画</span><b>毎日、自動で出す</b><span class="d">シニア向けの脳トレ。本編とショートを毎朝7時に</span></figcaption></figure>
+    </div>
+    <p class="note">ほかの形の動画も、お気軽にご相談ください。</p>
+  </div>
+</section>
+
+<!-- できること -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="sec-head"><span class="en">SERVICE</span><h2>できること</h2><p>ご依頼いただける4つのお仕事です。</p></div>
+    <div class="points">
+      <div class="point">
+        <div class="pic"><img src="img/manga-5.jpg" alt="漫画動画の一場面。カフェで話す二人"></div>
+        <div>
+          <span class="num">POINT<b>01</b></span>
+          <h3>YouTubeの動画作成</h3>
+          <p>企画、台本、絵、声、編集まで一続きでお作りします。漫画動画、図解の解説動画、クイズ動画、ショート動画に対応します。</p>
+          <ul><li>上の見本のような動画を1本から</li><li>毎日の予約公開まで仕組みにできます</li></ul>
+        </div>
+      </div>
+      <div class="point">
+        <div class="pic browser"><div class="bar"><i></i><i></i><i></i></div><img src="img/site.jpg" alt="このホームページの最初の画面"><span class="cap">制作例：このサイト</span></div>
+        <div>
+          <span class="num">POINT<b>02</b></span>
+          <h3>ホームページ作成</h3>
+          <p>デザインから文章、スマホでの見え方まで、まとめてお作りします。公開のあとの更新もお任せください。</p>
+          <ul><li>お店向けのホームページの試作 5件</li><li>スマホで見やすいつくり</li></ul>
+        </div>
+      </div>
+      <div class="point">
+        <div class="pic diagram">
+          <svg viewBox="0 0 400 240" role="img" aria-label="人が決め、AIが調べる・作る・出すを受け持つ仕組みの例">
+            <rect x="140" y="16" width="120" height="44" rx="10" fill="#22334a"/><text x="200" y="44" text-anchor="middle" fill="#fff" font-size="15" font-weight="700" font-family="Noto Sans JP, sans-serif">人が決める</text>
+            <path d="M200 60v30M80 120v-30h240v30M200 90v30" stroke="#14a39b" stroke-width="3" fill="none"/>
+            <rect x="20" y="120" width="120" height="60" rx="12" fill="#fff" stroke="#14a39b" stroke-width="2"/><text x="80" y="156" text-anchor="middle" fill="#22334a" font-size="15" font-weight="700" font-family="Noto Sans JP, sans-serif">AIが調べる</text>
+            <rect x="140" y="120" width="120" height="60" rx="12" fill="#fff" stroke="#14a39b" stroke-width="2"/><text x="200" y="156" text-anchor="middle" fill="#22334a" font-size="15" font-weight="700" font-family="Noto Sans JP, sans-serif">AIが作る</text>
+            <rect x="260" y="120" width="120" height="60" rx="12" fill="#fff" stroke="#14a39b" stroke-width="2"/><text x="320" y="156" text-anchor="middle" fill="#22334a" font-size="15" font-weight="700" font-family="Noto Sans JP, sans-serif">AIが出す</text>
+            <text x="200" y="218" text-anchor="middle" fill="#6b7785" font-size="12" font-family="Noto Sans JP, sans-serif">役割を分けると、少ない人数でも回る</text>
+          </svg>
+        </div>
+        <div>
+          <span class="num">POINT<b>03</b></span>
+          <h3>AI導入サポート</h3>
+          <p>道具選びから設定、使い方の練習まで。毎日の仕事でAIを使えるようになるまで、一緒に進めます。</p>
+          <ul><li>道具選び・設定・使い方の練習</li><li>くり返しの作業の自動化</li></ul>
+        </div>
+      </div>
+      <div class="point">
+        <div class="pic diagram">
+          <svg viewBox="0 0 400 240" role="img" aria-label="AIに任せる仕事と人が決める仕事を分ける図">
+            <rect x="24" y="28" width="170" height="64" rx="16" fill="#fff" stroke="#14a39b" stroke-width="2"/><path d="M60 92l-8 18 26-18" fill="#fff" stroke="#14a39b" stroke-width="2" stroke-linejoin="round"/>
+            <text x="109" y="57" text-anchor="middle" fill="#22334a" font-size="14" font-weight="700" font-family="Noto Sans JP, sans-serif">どこにAIが</text><text x="109" y="78" text-anchor="middle" fill="#22334a" font-size="14" font-weight="700" font-family="Noto Sans JP, sans-serif">使える？</text>
+            <rect x="206" y="40" width="170" height="64" rx="16" fill="#14a39b"/><path d="M340 104l8 18-26-18" fill="#14a39b"/>
+            <text x="291" y="69" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="Noto Sans JP, sans-serif">任せる所と</text><text x="291" y="90" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="Noto Sans JP, sans-serif">決める所を分ける</text>
+            <rect x="60" y="140" width="280" height="80" rx="12" fill="#fff"/>
+            <g font-family="Noto Sans JP, sans-serif" font-size="13" fill="#33404f"><text x="104" y="170">AIに任せる仕事</text><text x="104" y="202">人が決める仕事</text></g>
+            <g fill="none" stroke-width="2.6"><circle cx="86" cy="165" r="9" fill="#e8f6f4" stroke="#14a39b"/><path d="m81 165 4 4 7-8" stroke="#14a39b"/><circle cx="86" cy="197" r="9" fill="#fff7d6" stroke="#e6884e"/><path d="m81 197 4 4 7-8" stroke="#e6884e"/></g>
+            <rect x="230" y="160" width="90" height="10" rx="5" fill="#d3efeb"/><rect x="230" y="192" width="60" height="10" rx="5" fill="#ffe7b8"/>
+          </svg>
+        </div>
+        <div>
+          <span class="num">POINT<b>04</b></span>
+          <h3>AIコンサルティング</h3>
+          <p>どの仕事をAIに任せ、どこを人が決めるか。会社に合った分け方と進め方をご提案します。</p>
+          <ul><li>スポットでも、継続でも</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- つくったもの -->
+<section class="section tint" id="works">
+  <div class="wrap">
+    <div class="sec-head"><span class="en">WORKS</span><h2>つくったもの</h2><p>これまでに作ったものです。</p></div>
+    <div class="works">
+      <div class="work">
+        <div class="wimg"><img src="img/w-renai.jpg" alt="人の群れの中に立つ、青と赤のピクトグラム"></div>
+        <div class="wbody">
+          <span class="kind">解説動画</span>
+          <h3>心理学の図解動画</h3>
+          <p class="stat"><b>522</b><span>回の視聴（1本目）</span></p>
+          <p class="meta">2026年10月から公開</p>
+        </div>
+      </div>
+      <div class="work">
+        <div class="wimg"><img src="img/w-notore.jpg" alt="間違い探しの部屋の絵"></div>
+        <div class="wbody">
+          <span class="kind">動画の自動公開</span>
+          <h3>シニア向け脳トレ動画</h3>
+          <p class="stat"><b>3,150</b><span>回の再生（最初の5日）</span></p>
+          <p class="meta">毎朝7時に予約公開</p>
+        </div>
+      </div>
+      <div class="work">
+        <div class="wimg"><img src="img/site.jpg" alt="このホームページの最初の画面" style="object-position:top"></div>
+        <div class="wbody">
+          <span class="kind">ホームページ</span>
+          <h3>ホームページ制作</h3>
+          <p class="stat"><b>5</b><span>件 店舗向けの試作</span></p>
+          <p class="meta">このサイトも制作しました</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 料金 -->
+<section class="section" id="price">
+  <div class="wrap">
+    <div class="sec-head"><span class="en">PRICE</span><h2>料金の目安</h2><p>税込の目安です。内容によって変わります。</p></div>
+    <div class="plans">
+      <div class="plan">
+        <div class="ph">YouTube動画</div>
+        <div class="pb">
+          <div class="main-price"><small>動画の制作（5〜10分）</small><b>30,000<span>円〜</span></b></div>
+          <dl>
+            <div><dt>編集のみ</dt><dd>10,000円〜</dd></div>
+            <div><dt>ショート動画</dt><dd>5,000円〜</dd></div>
+          </dl>
+          <p class="for">企画・台本・声・編集こみ</p>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="ph">ホームページ</div>
+        <div class="pb">
+          <div class="main-price"><small>制作</small><b>98,000<span>円〜</span></b></div>
+          <dl>
+            <div><dt>更新・保守</dt><dd>月 5,500円〜</dd></div>
+          </dl>
+          <p class="for">文字や写真の差し替え、公開の管理</p>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="ph">AI導入サポート</div>
+        <div class="pb">
+          <div class="main-price"><small>導入</small><b>100,000<span>円〜</span></b></div>
+          <dl>
+            <div><dt>その後の伴走</dt><dd>月 30,000円〜</dd></div>
+          </dl>
+          <p class="for">道具選び・設定・練習まで。伴走は月2回まで</p>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="ph">AIコンサルティング</div>
+        <div class="pb">
+          <div class="main-price"><small>スポット 1時間</small><b>10,000<span>円</span></b></div>
+          <dl>
+            <div><dt>初回 30分</dt><dd>無料</dd></div>
+            <div><dt>継続</dt><dd>月 50,000円〜</dd></div>
+          </dl>
+          <p class="for">スポットでも、継続でも</p>
+        </div>
+      </div>
+    </div>
+    <p class="note">※ 料金は仮の目安です。</p>
+  </div>
+</section>
+
+<!-- 会社について -->
+<section class="section tint" id="about">
+  <div class="wrap">
+    <div class="sec-head"><span class="en">ABOUT</span><h2>会社について</h2></div>
+    <div class="profile">
+      <div class="avatar"><img src="img/profile.jpg" alt="代表 こうしろうの写真"></div>
+      <div>
+        <span class="role">AIこうしろうカンパニー 代表</span>
+        <h3>こうしろう</h3>
+        <p>静岡を拠点に、YouTubeの動画作成、ホームページ作成、AIの導入サポートとコンサルティングをお受けしています。小さなご依頼でも、お気軽にご相談ください。</p>
+        <div class="tags"><span>静岡県静岡市</span><span>動画制作</span><span>ホームページ</span><span>AI活用</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- お問い合わせ（問診のように、選んで答える形） -->
+<section class="final" id="contact">
+  <div class="wrap">
+    <div class="inquiry-box">
+    <h2>お問い合わせ</h2>
+    <p class="lead-q">当てはまるものを選ぶだけで送れます。書き足したいことは、各質問の「備考」へ。わからない所は空欄のままで大丈夫です。</p>
+
+    <form class="inquiry" id="inquiry" novalidate>
+      <fieldset class="q">
+        <legend><span class="qn">Q1</span>どんなことを頼みたいですか？<small>いくつでも</small></legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="want" id="want-video" value="動画を作ってほしい"><span>動画</span></label>
+          <label class="chip"><input type="checkbox" name="want" id="want-hp" value="ホームページを作ってほしい・直してほしい"><span>ホームページ</span></label>
+          <label class="chip"><input type="checkbox" name="want" id="want-ai" value="AIの導入・相談をしたい"><span>AIの導入・相談</span></label>
+          <label class="chip"><input type="checkbox" name="want" id="want-unknown" value="まだ決まっていない"><span>まだ決まっていない</span></label>
+        </div>
+        <label class="field note"><span>備考</span><textarea id="note-1" rows="2" placeholder="例：月2本ほど、お店の紹介動画を作りたい"></textarea></label>
+      </fieldset>
+
+      <fieldset class="q">
+        <legend><span class="qn">Q2</span>いま、困っていることは？<small>いくつでも</small></legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="worry" id="worry-hands" value="時間や人手が足りない"><span>時間・人手が足りない</span></label>
+          <label class="chip"><input type="checkbox" name="worry" id="worry-old" value="ホームページが古い・ない"><span>ホームページが古い・ない</span></label>
+          <label class="chip"><input type="checkbox" name="worry" id="worry-ai" value="AIを何から始めればいいかわからない"><span>AIの始め方がわからない</span></label>
+        </div>
+        <label class="field note"><span>備考</span><textarea id="note-2" rows="2" placeholder="例：毎週の投稿が続かない"></textarea></label>
+      </fieldset>
+
+      <fieldset class="q">
+        <legend><span class="qn">Q3</span>ご予算と時期の目安は？</legend>
+        <div class="row2">
+          <label class="field"><span>ご予算</span>
+            <select id="budget" name="budget">
+              <option value="">まだ決めていない</option>
+              <option>10万円まで</option>
+              <option>10〜30万円</option>
+              <option>30万円以上</option>
+            </select>
+          </label>
+          <label class="field"><span>いつまでに</span>
+            <select id="when" name="when">
+              <option value="">決まっていない</option>
+              <option>できるだけ早く</option>
+              <option>1〜3か月以内</option>
+            </select>
+          </label>
+        </div>
+        <label class="field note"><span>備考</span><textarea id="note-3" rows="2" placeholder="例：月ごとの支払いにしたい"></textarea></label>
+      </fieldset>
+
+      <fieldset class="q">
+        <legend><span class="qn">Q4</span>ご連絡先</legend>
+        <div class="row2">
+          <label class="field"><span>お名前 <em>必須</em></span><input type="text" id="name" name="name" autocomplete="name" placeholder="山田 太郎" required></label>
+          <label class="field"><span>会社名・お店の名前</span><input type="text" id="company" name="company" autocomplete="organization" placeholder="〇〇整体院"></label>
+          <label class="field"><span>メールアドレス <em>必須</em></span><input type="email" id="email" name="email" autocomplete="email" placeholder="example@mail.com" required></label>
+          <label class="field"><span>ご希望の連絡方法</span>
+            <select id="reply" name="reply">
+              <option>メール</option>
+              <option>お電話</option>
+              <option>オンラインで話したい</option>
+            </select>
+          </label>
+        </div>
+        <label class="field note"><span>備考</span><textarea id="note-4" rows="2" placeholder="例：平日の夕方なら電話に出られます（電話番号：）"></textarea></label>
+      </fieldset>
+
+      <p class="form-error" id="form-error" hidden></p>
+      <button class="btn btn-coral submit" type="submit">内容を確かめる</button>
+    </form>
+
+    <div class="sent" id="sent" hidden>
+      <h3>この内容でお送りください</h3>
+      <pre id="sent-text"></pre>
+      <div class="ctas">
+        <a class="btn btn-coral" id="mail-link" href="#">メールアプリで送る</a>
+        <button class="btn btn-white" type="button" id="copy-btn">内容をコピー</button>
+        <button class="btn btn-white" type="button" id="back-btn">入力に戻る</button>
+      </div>
+      <p class="hint">メールアプリが開かないときは、内容をコピーして <span class="mail">iemae.kou@gmail.com</span> へ送ってください。</p>
+    </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<a class="sp-cta" href="#contact">お問い合わせ</a>
+
+<footer class="site-foot">
+  <p class="foot-links"><a href="privacy.html">プライバシーポリシー</a>　<a href="terms.html">利用規約</a></p>
+  <p class="foot-note">当社のYouTubeチャンネルへの投稿に、YouTube API サービスを利用しています</p>
+  <p>© 2026 AIこうしろうカンパニー</p>
+</footer>
+
+<script>
+/* 最初の画面の「光の網」。色は CSS の --net（線）と --dot（点）から読む */
+(() => {
+  const c = document.querySelector('.hero-bg'); if (!c) return;
+  const ctx = c.getContext('2d');
+  let net, dot, strength;
+  function colors() {
+    const css = getComputedStyle(document.documentElement);
+    net = (css.getPropertyValue('--net') || '70,230,255').trim();
+    dot = (css.getPropertyValue('--dot') || 'rgba(160,240,255,.85)').trim();
+    strength = parseFloat(css.getPropertyValue('--net-alpha')) || .22;
+  }
+  colors();
+  /* 明るい版・暗い版の切り替え（見比べ用） */
+  const link = document.getElementById('theme-css'), btn = document.getElementById('theme-toggle');
+  function label() { btn.textContent = link.getAttribute('href').includes('dark') ? '明るい版' : '暗い版'; }
+  label();
+  btn.addEventListener('click', () => {
+    link.setAttribute('href', link.getAttribute('href').includes('dark') ? 'style-light.css' : 'style-dark.css');
+    link.addEventListener('load', () => { colors(); label(); if (still) draw(); }, { once: true });
+  });
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let w, h, pts;
+  function size() {
+    const dpr = Math.min(devicePixelRatio || 1, 2);
+    w = c.clientWidth; h = c.clientHeight; c.width = w * dpr; c.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const n = Math.round(Math.min(90, w * h / 14000));
+    pts = Array.from({ length: n }, () => ({ x: Math.random() * w, y: Math.random() * h, vx: (Math.random() - .5) * .25, vy: (Math.random() - .5) * .25, r: Math.random() * 1.6 + .5 }));
+  }
+  function draw() {
+    ctx.clearRect(0, 0, w, h);
+    for (const p of pts) { p.x += p.vx; p.y += p.vy; if (p.x < 0 || p.x > w) p.vx *= -1; if (p.y < 0 || p.y > h) p.vy *= -1; }
+    for (let i = 0; i < pts.length; i++) for (let j = i + 1; j < pts.length; j++) {
+      const a = pts[i], b = pts[j], d = Math.hypot(a.x - b.x, a.y - b.y);
+      if (d < 130) { ctx.strokeStyle = `rgba(${net},${(1 - d / 130) * strength})`; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke(); }
+    }
+    ctx.fillStyle = dot;
+    for (const p of pts) { ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill(); }
+    if (!still) requestAnimationFrame(draw);
+  }
+  size(); draw(); addEventListener('resize', () => { size(); if (still) draw(); });
+})();
+</script>
+<script>
+/* スマホの「お問い合わせ」：最初の画面と、お問い合わせの段が見えている間は隠す */
+(() => {
+  const btn = document.querySelector('.sp-cta'); if (!btn || !('IntersectionObserver' in window)) { btn && btn.classList.add('show'); return; }
+  const seen = new Map();
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => seen.set(e.target, e.isIntersecting));
+    btn.classList.toggle('show', ![...seen.values()].some(Boolean));
+  });
+  ['.hero', '#contact'].forEach(s => { const el = document.querySelector(s); if (el) io.observe(el); });
+})();
+</script>
+<script>
+/* 問診のようなお問い合わせ：選んだ内容をメールの文にまとめる */
+(() => {
+  const TO = 'iemae.kou@gmail.com';
+  const form = document.getElementById('inquiry'), sent = document.getElementById('sent');
+  const err = document.getElementById('form-error'), out = document.getElementById('sent-text');
+  const v = id => (document.getElementById(id).value || '').trim();
+  const checked = n => [...form.querySelectorAll(`input[name="${n}"]:checked`)].map(i => i.value);
+  let body = '', subject = '';
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const name = v('name'), email = v('email');
+    if (!name || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+      err.textContent = !name ? 'お名前を入れてください。' : 'メールアドレスを正しく入れてください（例：example@mail.com）。';
+      err.hidden = false; (name ? document.getElementById('email') : document.getElementById('name')).focus(); return;
+    }
+    err.hidden = true;
+    const want = checked('want'), worry = checked('worry');
+    const note = n => v('note-' + n) ? `（備考）${v('note-' + n)}` : '';
+    subject = `【お問い合わせ】${want[0] ? want[0].replace(/を作ってほしい.*|をしたい$/, '') : 'ご相談'}（${v('company') || name}）`;
+    body = [
+      '■ 頼みたいこと', want.length ? want.map(x => '・' + x).join('\n') : '・未選択', note(1), '',
+      '■ 困っていること', worry.length ? worry.map(x => '・' + x).join('\n') : '・未選択', note(2), '',
+      '■ ご予算・時期', `ご予算：${v('budget') || 'まだ決めていない'}`, `時期：${v('when') || '決まっていない'}`, note(3), '',
+      '■ ご連絡先', `お名前：${name}`, `会社名・お店：${v('company') || '（なし）'}`, `メール：${email}`, `ご希望の連絡方法：${v('reply')}`, note(4)
+    ].filter((l, i, a) => !(l === '' && a[i - 1] === '')).join('\n').replace(/\n\n+/g, '\n\n');
+    out.textContent = `宛先：${TO}\n件名：${subject}\n\n${body}`;
+    document.getElementById('mail-link').href = `mailto:${TO}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    form.hidden = true; sent.hidden = false; sent.scrollIntoView({ block: 'start' });
+  });
+  document.getElementById('back-btn').addEventListener('click', () => { sent.hidden = true; form.hidden = false; form.scrollIntoView({ block: 'start' }); });
+  document.getElementById('copy-btn').addEventListener('click', async e => {
+    const b = e.currentTarget, text = `宛先：${TO}\n件名：${subject}\n\n${body}`;
+    try { await navigator.clipboard.writeText(text); b.textContent = 'コピーしました'; }
+    catch { const r = document.createRange(); r.selectNodeContents(out); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = '選んだ所をコピーしてください'; }
+    setTimeout(() => b.textContent = '内容をコピー', 2500);
+  });
+})();
+</script>
+</body>
+</html>
